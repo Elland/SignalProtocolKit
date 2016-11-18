@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Frederic Jacobs. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "SignedPreKeyRecord.h"
 
 static NSString* const kCoderPreKeyId        = @"kCoderPreKeyId";

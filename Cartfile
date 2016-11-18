@@ -1,0 +1,3 @@
+github "elland/25519" "feature/carthage"
+github "elland/HKDFKit" "master"
+github "alexeyxo/protobuf-objc" "1.9.11"

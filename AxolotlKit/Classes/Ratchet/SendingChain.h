@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Chain.h"
 
-#import <25519/Curve25519.h>
+@class ECKeyPair;
 
 @interface SendingChain : NSObject <Chain, NSSecureCoding>
 

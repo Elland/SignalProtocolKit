@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Frederic Jacobs. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "PreKeyRecord.h"
 
 static NSString* const kCoderPreKeyId        = @"kCoderPreKeyId";
@@ -17,7 +18,7 @@ static NSString* const kCoderPreKeyPair      = @"kCoderPreKeyPair";
     return YES;
 }
 
-- (instancetype)initWithId:(int)identifier keyPair:(ECKeyPair*)keyPair{
+- (instancetype)initWithId:(int)identifier keyPair:(ECKeyPair *)keyPair{
     self = [super init];
     
     if (self) {

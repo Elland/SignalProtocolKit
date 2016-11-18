@@ -8,8 +8,7 @@
 
 #import "SessionCipher.h"
 
-#import <25519/Curve25519.h>
-#import <25519/Ed25519.h>
+#import <Curve25519/Curve25519-header.h>
 
 #import "NSData+keyVersionByte.h"
 
@@ -27,7 +26,7 @@
 #import "SignedPreKeyStore.h"
 #import "PreKeyStore.h"
 
-#import <HKDFKit/HKDFKit.h>
+#import <HKDFKitiOS/HKDFKit-iOS.h>
 
 @interface SessionCipher ()
 

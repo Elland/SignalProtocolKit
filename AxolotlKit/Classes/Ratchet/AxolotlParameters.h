@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <25519/Curve25519.h>
+#import <Curve25519/Curve25519-header.h>
 
 @protocol AxolotlParameters <NSObject>
 

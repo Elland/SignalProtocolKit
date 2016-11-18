@@ -9,6 +9,8 @@
 #ifndef AxolotlKit_AxolotlExceptions_h
 #define AxolotlKit_AxolotlExceptions_h
 
+#import <Foundation/Foundation.h>
+
 /**
  *  Thrown when the user is:
  

@@ -7,7 +7,7 @@
 //
 
 #import "TSDerivedSecrets.h"
-#import "HKDFKit.h"
+#import <HKDFKitiOS/HKDFKit-iOS.h>
 
 @implementation TSDerivedSecrets
 

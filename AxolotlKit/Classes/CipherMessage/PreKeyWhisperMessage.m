@@ -45,12 +45,12 @@
         [builder setPreKeyId:prekeyId];
     }
     
-    Byte versionByte          = [SerializationUtilities intsToByteHigh:_version low:CURRENT_VERSION];
+    Byte versionByte          = [SerializationUtilities intsToByteHigh:self.version low:CURRENT_VERSION];
     NSMutableData *serialized = [NSMutableData dataWithBytes:&versionByte length:1];
     NSData *messageBytes      = builder.build.data;
     [serialized appendData:messageBytes];
     
-    _serialized          = [NSData dataWithData:serialized];
+    self.serialized          = [NSData dataWithData:serialized];
     
     return self;
 }

@@ -8,6 +8,7 @@
 
 #import "SendingChain.h"
 #import "ChainKey.h"
+#import <Curve25519/Curve25519-header.h>
 
 @interface SendingChain ()
 

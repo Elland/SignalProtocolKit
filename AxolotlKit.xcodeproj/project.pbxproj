@@ -7,74 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30BDB6D632952E18074FD70B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F87ECA041E727CC457415 /* libPods.a */; };
-		719C4E40588B7AD1F1DD22FC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9F87ECA041E727CC457415 /* libPods.a */; };
-		B619AF1419FC148D00E33198 /* ProtobuffsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B619AF1319FC148D00E33198 /* ProtobuffsTests.m */; };
-		B61E841E19D17C33004FC382 /* HKDFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B61E841C19D1780D004FC382 /* HKDFTest.m */; };
-		B62EFBF01A9140190072ADD3 /* PreKeyBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B62EFBEF1A9140190072ADD3 /* PreKeyBundleTests.m */; };
-		B63B2F9F197D8AFD00E09F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2F9E197D8AFD00E09F65 /* Foundation.framework */; };
-		B63B2FA1197D8AFD00E09F65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2FA0197D8AFD00E09F65 /* CoreGraphics.framework */; };
-		B63B2FA3197D8AFD00E09F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2FA2197D8AFD00E09F65 /* UIKit.framework */; };
-		B63B2FA9197D8AFD00E09F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B63B2FA7197D8AFD00E09F65 /* InfoPlist.strings */; };
-		B63B2FAB197D8AFD00E09F65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B2FAA197D8AFD00E09F65 /* main.m */; };
-		B63B2FAF197D8AFD00E09F65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B2FAE197D8AFD00E09F65 /* AppDelegate.m */; };
-		B63B2FB1197D8AFD00E09F65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63B2FB0197D8AFD00E09F65 /* Images.xcassets */; };
-		B63B2FDC197D8B9600E09F65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2FB7197D8AFD00E09F65 /* XCTest.framework */; };
-		B63B2FDD197D8B9600E09F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2F9E197D8AFD00E09F65 /* Foundation.framework */; };
-		B63B2FDE197D8B9600E09F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63B2FA2197D8AFD00E09F65 /* UIKit.framework */; };
-		B63B2FE4197D8B9600E09F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B63B2FE2197D8B9600E09F65 /* InfoPlist.strings */; };
-		B63B2FE6197D8B9600E09F65 /* AxolotlKit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B2FE5197D8B9600E09F65 /* AxolotlKit_Tests.m */; };
-		B654B03419FACCB6000458F0 /* RatchetingSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B654B03319FACCB6000458F0 /* RatchetingSessionTest.m */; };
-		B6A3490319F1A4B4008A3E01 /* AxolotlInMemoryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3490219F1A4B4008A3E01 /* AxolotlInMemoryStore.m */; };
-		B6B3E63C19FD3D8A0035422D /* WhisperMessageSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B3E63B19FD3D8A0035422D /* WhisperMessageSerialization.m */; };
-		B6B3E64319FD5BC70035422D /* ECKeyPair+ECKeyPairTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B3E64219FD5BC70035422D /* ECKeyPair+ECKeyPairTesting.m */; };
-		B6B3E64419FD5C8E0035422D /* ECKeyPair+ECKeyPairTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B3E64219FD5BC70035422D /* ECKeyPair+ECKeyPairTesting.m */; };
-		B6BB8C3519F7E773008A5895 /* SessionBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB8C3419F7E773008A5895 /* SessionBuilderTests.m */; };
-		B6D41A2319DB4F8E00EE9BAA /* SessionCipherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D41A2219DB4F8E00EE9BAA /* SessionCipherTest.m */; };
-		B6E07F7A19FE49010091446D /* PreKeyWhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3919FE49010091446D /* PreKeyWhisperMessage.m */; };
-		B6E07F7B19FE49010091446D /* WhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3B19FE49010091446D /* WhisperMessage.m */; };
-		B6E07F7C19FE49010091446D /* AES-CBC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3F19FE49010091446D /* AES-CBC.m */; };
-		B6E07F7D19FE49010091446D /* PreKeyBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4419FE49010091446D /* PreKeyBundle.m */; };
-		B6E07F7E19FE49010091446D /* PreKeyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4619FE49010091446D /* PreKeyRecord.m */; };
-		B6E07F7F19FE49010091446D /* SignedPrekeyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4819FE49010091446D /* SignedPrekeyRecord.m */; };
-		B6E07F8019FE49010091446D /* WhisperTextProtocol.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4B19FE49010091446D /* WhisperTextProtocol.pb.m */; };
-		B6E07F8119FE49010091446D /* WhisperTextProtocol.proto in Resources */ = {isa = PBXBuildFile; fileRef = B6E07F4C19FE49010091446D /* WhisperTextProtocol.proto */; };
-		B6E07F8219FE49010091446D /* AliceAxolotlParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4F19FE49010091446D /* AliceAxolotlParameters.m */; };
-		B6E07F8319FE49010091446D /* BobAxolotlParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5219FE49010091446D /* BobAxolotlParameters.m */; };
-		B6E07F8419FE49010091446D /* ChainAndIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5519FE49010091446D /* ChainAndIndex.m */; };
-		B6E07F8519FE49010091446D /* ChainKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5719FE49010091446D /* ChainKey.m */; };
-		B6E07F8619FE49010091446D /* MessageKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5919FE49010091446D /* MessageKeys.m */; };
-		B6E07F8719FE49010091446D /* RatchetingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5B19FE49010091446D /* RatchetingSession.m */; };
-		B6E07F8819FE49010091446D /* ReceivingChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5D19FE49010091446D /* ReceivingChain.m */; };
-		B6E07F8919FE49010091446D /* RKCK.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5F19FE49010091446D /* RKCK.m */; };
-		B6E07F8A19FE49010091446D /* RootKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6119FE49010091446D /* RootKey.m */; };
-		B6E07F8B19FE49010091446D /* SendingChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6319FE49010091446D /* SendingChain.m */; };
-		B6E07F8C19FE49010091446D /* TSDerivedSecrets.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6519FE49010091446D /* TSDerivedSecrets.m */; };
-		B6E07F8D19FE49010091446D /* SessionCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6719FE49010091446D /* SessionCipher.m */; };
-		B6E07F8E19FE49010091446D /* SessionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6A19FE49010091446D /* SessionBuilder.m */; };
-		B6E07F8F19FE49010091446D /* SessionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6C19FE49010091446D /* SessionRecord.m */; };
-		B6E07F9019FE49010091446D /* SessionState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6E19FE49010091446D /* SessionState.m */; };
-		B6E07F9119FE49010091446D /* NSData+keyVersionByte.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7719FE49010091446D /* NSData+keyVersionByte.m */; };
-		B6E07F9219FE49010091446D /* SerializationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7919FE49010091446D /* SerializationUtilities.m */; };
-		B6E37AE019CF107C00E619CA /* ECCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E37ADF19CF107C00E619CA /* ECCTests.m */; };
+		9F4C517B1DDF34FB008DFCC2 /* AxolotlKitiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4C51791DDF34FB008DFCC2 /* AxolotlKitiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51841DDF3550008DFCC2 /* AxolotlExceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3519FE49010091446D /* AxolotlExceptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51851DDF3572008DFCC2 /* CipherMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3719FE49010091446D /* CipherMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51861DDF3572008DFCC2 /* PreKeyWhisperMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3819FE49010091446D /* PreKeyWhisperMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51871DDF3572008DFCC2 /* WhisperMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3A19FE49010091446D /* WhisperMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51881DDF3572008DFCC2 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3C19FE49010091446D /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51891DDF3572008DFCC2 /* AES-CBC.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F3E19FE49010091446D /* AES-CBC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518A1DDF3572008DFCC2 /* PreKeyBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F4319FE49010091446D /* PreKeyBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518B1DDF3572008DFCC2 /* PreKeyRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F4519FE49010091446D /* PreKeyRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518C1DDF3572008DFCC2 /* SignedPrekeyRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F4719FE49010091446D /* SignedPrekeyRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518D1DDF3572008DFCC2 /* WhisperTextProtocol.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F4A19FE49010091446D /* WhisperTextProtocol.pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518E1DDF3572008DFCC2 /* AliceAxolotlParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F4E19FE49010091446D /* AliceAxolotlParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C518F1DDF3572008DFCC2 /* AxolotlParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5019FE49010091446D /* AxolotlParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51901DDF3572008DFCC2 /* BobAxolotlParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5119FE49010091446D /* BobAxolotlParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51911DDF3572008DFCC2 /* Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5319FE49010091446D /* Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51921DDF3572008DFCC2 /* ChainAndIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5419FE49010091446D /* ChainAndIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51931DDF3572008DFCC2 /* ChainKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5619FE49010091446D /* ChainKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51941DDF3572008DFCC2 /* MessageKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5819FE49010091446D /* MessageKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51951DDF3572008DFCC2 /* RatchetingSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5A19FE49010091446D /* RatchetingSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51961DDF3572008DFCC2 /* ReceivingChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5C19FE49010091446D /* ReceivingChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51971DDF3572008DFCC2 /* RKCK.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F5E19FE49010091446D /* RKCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51981DDF3572008DFCC2 /* RootKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6019FE49010091446D /* RootKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51991DDF3572008DFCC2 /* SendingChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6219FE49010091446D /* SendingChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519A1DDF3572008DFCC2 /* TSDerivedSecrets.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6419FE49010091446D /* TSDerivedSecrets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519B1DDF3572008DFCC2 /* SessionCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6619FE49010091446D /* SessionCipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519C1DDF3572008DFCC2 /* SessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6919FE49010091446D /* SessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519D1DDF3572008DFCC2 /* SessionRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6B19FE49010091446D /* SessionRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519E1DDF3572008DFCC2 /* SessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F6D19FE49010091446D /* SessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C519F1DDF3572008DFCC2 /* AxolotlStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7019FE49010091446D /* AxolotlStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A01DDF3572008DFCC2 /* IdentityKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7119FE49010091446D /* IdentityKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A11DDF3572008DFCC2 /* PreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7219FE49010091446D /* PreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A21DDF3572008DFCC2 /* SessionStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7319FE49010091446D /* SessionStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A31DDF3572008DFCC2 /* SignedPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7419FE49010091446D /* SignedPreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A41DDF3572008DFCC2 /* NSData+keyVersionByte.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7619FE49010091446D /* NSData+keyVersionByte.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A51DDF3572008DFCC2 /* SerializationUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E07F7819FE49010091446D /* SerializationUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F4C51A61DDF3584008DFCC2 /* PreKeyWhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3919FE49010091446D /* PreKeyWhisperMessage.m */; };
+		9F4C51A71DDF3584008DFCC2 /* WhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3B19FE49010091446D /* WhisperMessage.m */; };
+		9F4C51A81DDF3584008DFCC2 /* AES-CBC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F3F19FE49010091446D /* AES-CBC.m */; };
+		9F4C51A91DDF3584008DFCC2 /* PreKeyBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4419FE49010091446D /* PreKeyBundle.m */; };
+		9F4C51AA1DDF3584008DFCC2 /* PreKeyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4619FE49010091446D /* PreKeyRecord.m */; };
+		9F4C51AB1DDF3584008DFCC2 /* SignedPrekeyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4819FE49010091446D /* SignedPrekeyRecord.m */; };
+		9F4C51AC1DDF3584008DFCC2 /* WhisperTextProtocol.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4B19FE49010091446D /* WhisperTextProtocol.pb.m */; };
+		9F4C51AD1DDF3584008DFCC2 /* AliceAxolotlParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F4F19FE49010091446D /* AliceAxolotlParameters.m */; };
+		9F4C51AE1DDF3584008DFCC2 /* BobAxolotlParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5219FE49010091446D /* BobAxolotlParameters.m */; };
+		9F4C51AF1DDF3584008DFCC2 /* ChainAndIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5519FE49010091446D /* ChainAndIndex.m */; };
+		9F4C51B01DDF3584008DFCC2 /* ChainKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5719FE49010091446D /* ChainKey.m */; };
+		9F4C51B11DDF3584008DFCC2 /* MessageKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5919FE49010091446D /* MessageKeys.m */; };
+		9F4C51B21DDF3584008DFCC2 /* RatchetingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5B19FE49010091446D /* RatchetingSession.m */; };
+		9F4C51B31DDF3584008DFCC2 /* ReceivingChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5D19FE49010091446D /* ReceivingChain.m */; };
+		9F4C51B41DDF3584008DFCC2 /* RKCK.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F5F19FE49010091446D /* RKCK.m */; };
+		9F4C51B51DDF3584008DFCC2 /* RootKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6119FE49010091446D /* RootKey.m */; };
+		9F4C51B61DDF3584008DFCC2 /* SendingChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6319FE49010091446D /* SendingChain.m */; };
+		9F4C51B71DDF3584008DFCC2 /* TSDerivedSecrets.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6519FE49010091446D /* TSDerivedSecrets.m */; };
+		9F4C51B81DDF3584008DFCC2 /* SessionCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6719FE49010091446D /* SessionCipher.m */; };
+		9F4C51B91DDF3584008DFCC2 /* SessionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6A19FE49010091446D /* SessionBuilder.m */; };
+		9F4C51BA1DDF3584008DFCC2 /* SessionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6C19FE49010091446D /* SessionRecord.m */; };
+		9F4C51BB1DDF3584008DFCC2 /* SessionState.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F6E19FE49010091446D /* SessionState.m */; };
+		9F4C51BC1DDF3584008DFCC2 /* NSData+keyVersionByte.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7719FE49010091446D /* NSData+keyVersionByte.m */; };
+		9F4C51BD1DDF3584008DFCC2 /* SerializationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7919FE49010091446D /* SerializationUtilities.m */; };
+		9F4C51C51DDF37AB008DFCC2 /* Curve25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */; };
+		9F4C51C61DDF37AB008DFCC2 /* Curve25519.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */; };
+		9F4C51C81DDF37AB008DFCC2 /* HKDFKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */; };
+		9F4C51C91DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */; };
+		9F4C51CA1DDF37AB008DFCC2 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */; };
+		9F4C51CB1DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */; };
+		9F4C51CD1DDF37C1008DFCC2 /* Curve25519.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51CE1DDF37C1008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F4C51CF1DDF37C1008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B63B2FE8197D8B9600E09F65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6B98F70197D838A00B16B5E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B63B2F9C197D8AFD00E09F65;
-			remoteInfo = AxolotlKit;
+/* Begin PBXCopyFilesBuildPhase section */
+		9F4C51CC1DDF37B0008DFCC2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F4C51CD1DDF37C1008DFCC2 /* Curve25519.framework in Embed Frameworks */,
+				9F4C51CE1DDF37C1008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */,
+				9F4C51CF1DDF37C1008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD9F87ECA041E727CC457415 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxolotlKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4C51791DDF34FB008DFCC2 /* AxolotlKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxolotlKitiOS.h; sourceTree = "<group>"; };
+		9F4C517A1DDF34FB008DFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Curve25519.framework.dSYM; path = Carthage/Build/iOS/Curve25519.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HKDFKitiOS.framework; path = Carthage/Build/iOS/HKDFKitiOS.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HKDFKitiOS.framework.dSYM; path = Carthage/Build/iOS/HKDFKitiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Carthage/Build/iOS/ProtocolBuffers.framework; sourceTree = SOURCE_ROOT; };
+		9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ProtocolBuffers.framework.dSYM; path = Carthage/Build/iOS/ProtocolBuffers.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		B619AF1319FC148D00E33198 /* ProtobuffsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtobuffsTests.m; sourceTree = "<group>"; };
 		B61E841C19D1780D004FC382 /* HKDFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDFTest.m; sourceTree = "<group>"; };
 		B62EFBEF1A9140190072ADD3 /* PreKeyBundleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreKeyBundleTests.m; sourceTree = "<group>"; };
-		B63B2F9D197D8AFD00E09F65 /* AxolotlKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxolotlKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63B2F9E197D8AFD00E09F65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B63B2FA0197D8AFD00E09F65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B63B2FA2197D8AFD00E09F65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -85,8 +116,6 @@
 		B63B2FAD197D8AFD00E09F65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B63B2FAE197D8AFD00E09F65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B63B2FB0197D8AFD00E09F65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B63B2FB7197D8AFD00E09F65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B63B2FDB197D8B9600E09F65 /* AxolotlKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxolotlKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63B2FE1197D8B9600E09F65 /* AxolotlKit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AxolotlKit Tests-Info.plist"; sourceTree = "<group>"; };
 		B63B2FE3197D8B9600E09F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B63B2FE5197D8B9600E09F65 /* AxolotlKit_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxolotlKit_Tests.m; sourceTree = "<group>"; };
@@ -160,44 +189,37 @@
 		B6E07F7819FE49010091446D /* SerializationUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializationUtilities.h; sourceTree = "<group>"; };
 		B6E07F7919FE49010091446D /* SerializationUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializationUtilities.m; sourceTree = "<group>"; };
 		B6E37ADF19CF107C00E619CA /* ECCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECCTests.m; sourceTree = "<group>"; };
-		C47E7DDC756D06556C4541B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F1351BCBFEF67F0F64D4C98C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B63B2F9A197D8AFD00E09F65 /* Frameworks */ = {
+		9F4C51731DDF34FB008DFCC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63B2FA1197D8AFD00E09F65 /* CoreGraphics.framework in Frameworks */,
-				B63B2FA3197D8AFD00E09F65 /* UIKit.framework in Frameworks */,
-				B63B2F9F197D8AFD00E09F65 /* Foundation.framework in Frameworks */,
-				30BDB6D632952E18074FD70B /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B63B2FD8197D8B9600E09F65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B63B2FDC197D8B9600E09F65 /* XCTest.framework in Frameworks */,
-				B63B2FDE197D8B9600E09F65 /* UIKit.framework in Frameworks */,
-				B63B2FDD197D8B9600E09F65 /* Foundation.framework in Frameworks */,
-				719C4E40588B7AD1F1DD22FC /* libPods.a in Frameworks */,
+				9F4C51C81DDF37AB008DFCC2 /* HKDFKitiOS.framework in Frameworks */,
+				9F4C51CA1DDF37AB008DFCC2 /* ProtocolBuffers.framework in Frameworks */,
+				9F4C51C51DDF37AB008DFCC2 /* Curve25519.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F4C51781DDF34FB008DFCC2 /* AxolotlKitiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F4C51791DDF34FB008DFCC2 /* AxolotlKitiOS.h */,
+				9F4C517A1DDF34FB008DFCC2 /* Info.plist */,
+			);
+			path = AxolotlKitiOS;
+			sourceTree = "<group>";
+		};
 		A616BD9DC39D4B7BBBA02F80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B63B2F9E197D8AFD00E09F65 /* Foundation.framework */,
 				B63B2FA0197D8AFD00E09F65 /* CoreGraphics.framework */,
 				B63B2FA2197D8AFD00E09F65 /* UIKit.framework */,
-				B63B2FB7197D8AFD00E09F65 /* XCTest.framework */,
-				AD9F87ECA041E727CC457415 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -300,19 +322,18 @@
 			isa = PBXGroup;
 			children = (
 				B63B2FA4197D8AFD00E09F65 /* AxolotlKit App */,
+				9F4C51781DDF34FB008DFCC2 /* AxolotlKitiOS */,
 				B6B98F7B197D838A00B16B5E /* AxolotlKit */,
 				B63B2FDF197D8B9600E09F65 /* AxolotlKit Tests */,
 				B6B98F7A197D838A00B16B5E /* Products */,
 				A616BD9DC39D4B7BBBA02F80 /* Frameworks */,
-				F56DC7A75D226F3057DF227B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		B6B98F7A197D838A00B16B5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B63B2F9D197D8AFD00E09F65 /* AxolotlKit.app */,
-				B63B2FDB197D8B9600E09F65 /* AxolotlKitTests.xctest */,
+				9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +341,12 @@
 		B6B98F7B197D838A00B16B5E /* AxolotlKit */ = {
 			isa = PBXGroup;
 			children = (
+				9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */,
+				9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */,
+				9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */,
+				9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */,
+				9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */,
+				9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */,
 				B6E07F3419FE49010091446D /* Classes */,
 				B6B98F7C197D838A00B16B5E /* Supporting Files */,
 			);
@@ -472,56 +499,72 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		F56DC7A75D226F3057DF227B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C47E7DDC756D06556C4541B0 /* Pods.debug.xcconfig */,
-				F1351BCBFEF67F0F64D4C98C /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		B63B2F9C197D8AFD00E09F65 /* AxolotlKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B63B2FC5197D8AFE00E09F65 /* Build configuration list for PBXNativeTarget "AxolotlKit" */;
-			buildPhases = (
-				2873D560FFC1302C095EDD03 /* Check Pods Manifest.lock */,
-				B63B2F99197D8AFD00E09F65 /* Sources */,
-				B63B2F9A197D8AFD00E09F65 /* Frameworks */,
-				B63B2F9B197D8AFD00E09F65 /* Resources */,
-				9C925C121D5B8E571ED994DC /* Copy Pods Resources */,
+/* Begin PBXHeadersBuildPhase section */
+		9F4C51741DDF34FB008DFCC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4C517B1DDF34FB008DFCC2 /* AxolotlKitiOS.h in Headers */,
+				9F4C51841DDF3550008DFCC2 /* AxolotlExceptions.h in Headers */,
+				9F4C51851DDF3572008DFCC2 /* CipherMessage.h in Headers */,
+				9F4C51861DDF3572008DFCC2 /* PreKeyWhisperMessage.h in Headers */,
+				9F4C51871DDF3572008DFCC2 /* WhisperMessage.h in Headers */,
+				9F4C51881DDF3572008DFCC2 /* Constants.h in Headers */,
+				9F4C51891DDF3572008DFCC2 /* AES-CBC.h in Headers */,
+				9F4C518A1DDF3572008DFCC2 /* PreKeyBundle.h in Headers */,
+				9F4C518B1DDF3572008DFCC2 /* PreKeyRecord.h in Headers */,
+				9F4C518C1DDF3572008DFCC2 /* SignedPrekeyRecord.h in Headers */,
+				9F4C518D1DDF3572008DFCC2 /* WhisperTextProtocol.pb.h in Headers */,
+				9F4C518E1DDF3572008DFCC2 /* AliceAxolotlParameters.h in Headers */,
+				9F4C518F1DDF3572008DFCC2 /* AxolotlParameters.h in Headers */,
+				9F4C51901DDF3572008DFCC2 /* BobAxolotlParameters.h in Headers */,
+				9F4C51911DDF3572008DFCC2 /* Chain.h in Headers */,
+				9F4C51921DDF3572008DFCC2 /* ChainAndIndex.h in Headers */,
+				9F4C51931DDF3572008DFCC2 /* ChainKey.h in Headers */,
+				9F4C51941DDF3572008DFCC2 /* MessageKeys.h in Headers */,
+				9F4C51951DDF3572008DFCC2 /* RatchetingSession.h in Headers */,
+				9F4C51961DDF3572008DFCC2 /* ReceivingChain.h in Headers */,
+				9F4C51971DDF3572008DFCC2 /* RKCK.h in Headers */,
+				9F4C51981DDF3572008DFCC2 /* RootKey.h in Headers */,
+				9F4C51991DDF3572008DFCC2 /* SendingChain.h in Headers */,
+				9F4C519A1DDF3572008DFCC2 /* TSDerivedSecrets.h in Headers */,
+				9F4C519B1DDF3572008DFCC2 /* SessionCipher.h in Headers */,
+				9F4C519C1DDF3572008DFCC2 /* SessionBuilder.h in Headers */,
+				9F4C519D1DDF3572008DFCC2 /* SessionRecord.h in Headers */,
+				9F4C519E1DDF3572008DFCC2 /* SessionState.h in Headers */,
+				9F4C519F1DDF3572008DFCC2 /* AxolotlStore.h in Headers */,
+				9F4C51A01DDF3572008DFCC2 /* IdentityKeyStore.h in Headers */,
+				9F4C51A11DDF3572008DFCC2 /* PreKeyStore.h in Headers */,
+				9F4C51A21DDF3572008DFCC2 /* SessionStore.h in Headers */,
+				9F4C51A31DDF3572008DFCC2 /* SignedPreKeyStore.h in Headers */,
+				9F4C51A41DDF3572008DFCC2 /* NSData+keyVersionByte.h in Headers */,
+				9F4C51A51DDF3572008DFCC2 /* SerializationUtilities.h in Headers */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AxolotlKit;
-			productName = AxolotlKit;
-			productReference = B63B2F9D197D8AFD00E09F65 /* AxolotlKit.app */;
-			productType = "com.apple.product-type.application";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B63B2FDA197D8B9600E09F65 /* AxolotlKitTests */ = {
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F4C51761DDF34FB008DFCC2 /* AxolotlKitiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B63B2FEA197D8B9600E09F65 /* Build configuration list for PBXNativeTarget "AxolotlKitTests" */;
+			buildConfigurationList = 9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKitiOS" */;
 			buildPhases = (
-				99597A930ADDD17377AADBA4 /* Check Pods Manifest.lock */,
-				B63B2FD7197D8B9600E09F65 /* Sources */,
-				B63B2FD8197D8B9600E09F65 /* Frameworks */,
-				B63B2FD9197D8B9600E09F65 /* Resources */,
-				A51F70DA7E9DF4FF44373955 /* Copy Pods Resources */,
+				9F4C51721DDF34FB008DFCC2 /* Sources */,
+				9F4C51731DDF34FB008DFCC2 /* Frameworks */,
+				9F4C51741DDF34FB008DFCC2 /* Headers */,
+				9F4C51751DDF34FB008DFCC2 /* Resources */,
+				9F4C51CC1DDF37B0008DFCC2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B63B2FE9197D8B9600E09F65 /* PBXTargetDependency */,
 			);
-			name = AxolotlKitTests;
-			productName = "AxolotlKit Tests";
-			productReference = B63B2FDB197D8B9600E09F65 /* AxolotlKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = AxolotlKitiOS;
+			productName = AxolotlKitiOS;
+			productReference = 9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -529,11 +572,13 @@
 		B6B98F70197D838A00B16B5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Frederic Jacobs";
 				TargetAttributes = {
-					B63B2FDA197D8B9600E09F65 = {
-						TestTargetID = B63B2F9C197D8AFD00E09F65;
+					9F4C51761DDF34FB008DFCC2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29X3GG489T;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -549,158 +594,57 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B63B2F9C197D8AFD00E09F65 /* AxolotlKit */,
-				B63B2FDA197D8B9600E09F65 /* AxolotlKitTests */,
+				9F4C51761DDF34FB008DFCC2 /* AxolotlKitiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B63B2F9B197D8AFD00E09F65 /* Resources */ = {
+		9F4C51751DDF34FB008DFCC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E07F8119FE49010091446D /* WhisperTextProtocol.proto in Resources */,
-				B63B2FA9197D8AFD00E09F65 /* InfoPlist.strings in Resources */,
-				B63B2FB1197D8AFD00E09F65 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B63B2FD9197D8B9600E09F65 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B63B2FE4197D8B9600E09F65 /* InfoPlist.strings in Resources */,
+				9F4C51CB1DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */,
+				9F4C51C91DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */,
+				9F4C51C61DDF37AB008DFCC2 /* Curve25519.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2873D560FFC1302C095EDD03 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		99597A930ADDD17377AADBA4 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9C925C121D5B8E571ED994DC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A51F70DA7E9DF4FF44373955 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B63B2F99197D8AFD00E09F65 /* Sources */ = {
+		9F4C51721DDF34FB008DFCC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E07F8819FE49010091446D /* ReceivingChain.m in Sources */,
-				B6E07F8419FE49010091446D /* ChainAndIndex.m in Sources */,
-				B6E07F9219FE49010091446D /* SerializationUtilities.m in Sources */,
-				B6E07F8919FE49010091446D /* RKCK.m in Sources */,
-				B6E07F8519FE49010091446D /* ChainKey.m in Sources */,
-				B6E07F7E19FE49010091446D /* PreKeyRecord.m in Sources */,
-				B6E07F7A19FE49010091446D /* PreKeyWhisperMessage.m in Sources */,
-				B6E07F8019FE49010091446D /* WhisperTextProtocol.pb.m in Sources */,
-				B6E07F9019FE49010091446D /* SessionState.m in Sources */,
-				B6E07F8319FE49010091446D /* BobAxolotlParameters.m in Sources */,
-				B6E07F8619FE49010091446D /* MessageKeys.m in Sources */,
-				B6E07F7B19FE49010091446D /* WhisperMessage.m in Sources */,
-				B6E07F8219FE49010091446D /* AliceAxolotlParameters.m in Sources */,
-				B6B3E64319FD5BC70035422D /* ECKeyPair+ECKeyPairTesting.m in Sources */,
-				B6E07F7D19FE49010091446D /* PreKeyBundle.m in Sources */,
-				B6E07F8F19FE49010091446D /* SessionRecord.m in Sources */,
-				B6E07F8719FE49010091446D /* RatchetingSession.m in Sources */,
-				B63B2FAF197D8AFD00E09F65 /* AppDelegate.m in Sources */,
-				B6E07F9119FE49010091446D /* NSData+keyVersionByte.m in Sources */,
-				B6E07F7C19FE49010091446D /* AES-CBC.m in Sources */,
-				B6E07F8B19FE49010091446D /* SendingChain.m in Sources */,
-				B6E07F8D19FE49010091446D /* SessionCipher.m in Sources */,
-				B6E07F8C19FE49010091446D /* TSDerivedSecrets.m in Sources */,
-				B6E07F7F19FE49010091446D /* SignedPrekeyRecord.m in Sources */,
-				B6E07F8A19FE49010091446D /* RootKey.m in Sources */,
-				B63B2FAB197D8AFD00E09F65 /* main.m in Sources */,
-				B6E07F8E19FE49010091446D /* SessionBuilder.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B63B2FD7197D8B9600E09F65 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6B3E64419FD5C8E0035422D /* ECKeyPair+ECKeyPairTesting.m in Sources */,
-				B61E841E19D17C33004FC382 /* HKDFTest.m in Sources */,
-				B619AF1419FC148D00E33198 /* ProtobuffsTests.m in Sources */,
-				B6D41A2319DB4F8E00EE9BAA /* SessionCipherTest.m in Sources */,
-				B6A3490319F1A4B4008A3E01 /* AxolotlInMemoryStore.m in Sources */,
-				B63B2FE6197D8B9600E09F65 /* AxolotlKit_Tests.m in Sources */,
-				B654B03419FACCB6000458F0 /* RatchetingSessionTest.m in Sources */,
-				B62EFBF01A9140190072ADD3 /* PreKeyBundleTests.m in Sources */,
-				B6BB8C3519F7E773008A5895 /* SessionBuilderTests.m in Sources */,
-				B6E37AE019CF107C00E619CA /* ECCTests.m in Sources */,
-				B6B3E63C19FD3D8A0035422D /* WhisperMessageSerialization.m in Sources */,
+				9F4C51A61DDF3584008DFCC2 /* PreKeyWhisperMessage.m in Sources */,
+				9F4C51A71DDF3584008DFCC2 /* WhisperMessage.m in Sources */,
+				9F4C51A81DDF3584008DFCC2 /* AES-CBC.m in Sources */,
+				9F4C51A91DDF3584008DFCC2 /* PreKeyBundle.m in Sources */,
+				9F4C51AA1DDF3584008DFCC2 /* PreKeyRecord.m in Sources */,
+				9F4C51AB1DDF3584008DFCC2 /* SignedPrekeyRecord.m in Sources */,
+				9F4C51AC1DDF3584008DFCC2 /* WhisperTextProtocol.pb.m in Sources */,
+				9F4C51AD1DDF3584008DFCC2 /* AliceAxolotlParameters.m in Sources */,
+				9F4C51AE1DDF3584008DFCC2 /* BobAxolotlParameters.m in Sources */,
+				9F4C51AF1DDF3584008DFCC2 /* ChainAndIndex.m in Sources */,
+				9F4C51B01DDF3584008DFCC2 /* ChainKey.m in Sources */,
+				9F4C51B11DDF3584008DFCC2 /* MessageKeys.m in Sources */,
+				9F4C51B21DDF3584008DFCC2 /* RatchetingSession.m in Sources */,
+				9F4C51B31DDF3584008DFCC2 /* ReceivingChain.m in Sources */,
+				9F4C51B41DDF3584008DFCC2 /* RKCK.m in Sources */,
+				9F4C51B51DDF3584008DFCC2 /* RootKey.m in Sources */,
+				9F4C51B61DDF3584008DFCC2 /* SendingChain.m in Sources */,
+				9F4C51B71DDF3584008DFCC2 /* TSDerivedSecrets.m in Sources */,
+				9F4C51B81DDF3584008DFCC2 /* SessionCipher.m in Sources */,
+				9F4C51B91DDF3584008DFCC2 /* SessionBuilder.m in Sources */,
+				9F4C51BA1DDF3584008DFCC2 /* SessionRecord.m in Sources */,
+				9F4C51BB1DDF3584008DFCC2 /* SessionState.m in Sources */,
+				9F4C51BC1DDF3584008DFCC2 /* NSData+keyVersionByte.m in Sources */,
+				9F4C51BD1DDF3584008DFCC2 /* SerializationUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B63B2FE9197D8B9600E09F65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B63B2F9C197D8AFD00E09F65 /* AxolotlKit */;
-			targetProxy = B63B2FE8197D8B9600E09F65 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B63B2FA7197D8AFD00E09F65 /* InfoPlist.strings */ = {
@@ -722,83 +666,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B63B2FC6197D8AFE00E09F65 /* Debug */ = {
+		9F4C51801DDF34FB008DFCC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47E7DDC756D06556C4541B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AxolotlKit/AxolotlKit-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "AxolotlKit/AxolotlKit-Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AxolotlKitiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.elland.AxolotlKitiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		B63B2FC7197D8AFE00E09F65 /* Release */ = {
+		9F4C51811DDF34FB008DFCC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1351BCBFEF67F0F64D4C98C /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AxolotlKit/AxolotlKit-Prefix.pch";
-				INFOPLIST_FILE = "AxolotlKit/AxolotlKit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		B63B2FEB197D8B9600E09F65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47E7DDC756D06556C4541B0 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AxolotlKit.app/AxolotlKit";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AxolotlKit Tests/AxolotlKit Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "AxolotlKit Tests/AxolotlKit Tests-Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AxolotlKitiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.elland.AxolotlKitiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		B63B2FEC197D8B9600E09F65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1351BCBFEF67F0F64D4C98C /* Pods.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AxolotlKit.app/AxolotlKit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AxolotlKit Tests/AxolotlKit Tests-Prefix.pch";
-				INFOPLIST_FILE = "AxolotlKit Tests/AxolotlKit Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		B6B98F8D197D838A00B16B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C47E7DDC756D06556C4541B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -810,16 +739,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -836,7 +769,7 @@
 					"$(inherited)/**",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -848,7 +781,6 @@
 		};
 		B6B98F8E197D838A00B16B5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1351BCBFEF67F0F64D4C98C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -860,8 +792,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -870,6 +804,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -880,7 +815,7 @@
 					"$(inherited)/**",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -893,20 +828,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B63B2FC5197D8AFE00E09F65 /* Build configuration list for PBXNativeTarget "AxolotlKit" */ = {
+		9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKitiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B63B2FC6197D8AFE00E09F65 /* Debug */,
-				B63B2FC7197D8AFE00E09F65 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B63B2FEA197D8B9600E09F65 /* Build configuration list for PBXNativeTarget "AxolotlKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B63B2FEB197D8B9600E09F65 /* Debug */,
-				B63B2FEC197D8B9600E09F65 /* Release */,
+				9F4C51801DDF34FB008DFCC2 /* Debug */,
+				9F4C51811DDF34FB008DFCC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

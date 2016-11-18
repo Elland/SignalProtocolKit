@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Frederic Jacobs. All rights reserved.
 //
 
+#import <Curve25519/Curve25519-header.h>
 #import "RatchetingSession.h"
-
+#import <HKDFKitiOS/HKDFKit-iOS.h>
 #import "AliceAxolotlParameters.h"
 #import "BobAxolotlParameters.h"
 #import "RootKey.h"
 #import "SessionState.h"
-#import <HKDFKit/HKDFKit.h>
-#import <25519/Curve25519.h>
+#import <HKDFKitiOS/HKDFKit-iOS.h>
 #import "ChainKey.h"
 
 @interface DHEResult : NSObject
