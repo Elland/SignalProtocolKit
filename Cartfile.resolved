@@ -1,3 +1,4 @@
 github "elland/25519" "055383a9547ea8d124d608f603011a5c549b362c"
 github "elland/HKDFKit" "daf5d125944ddae3eb5c291df9cf32eeb80f404a"
 github "alexeyxo/protobuf-objc" "1.9.11"
+git "../SignalProtocolKit" "83bbd60b50bdc7891c3d5ed61f5d879c7162a46f"
