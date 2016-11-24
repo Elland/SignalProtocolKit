@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B63B2F9C197D8AFD00E09F65"
-               BuildableName = "AxolotlKit.app"
+               BlueprintIdentifier = "9F4C51761DDF34FB008DFCC2"
+               BuildableName = "AxolotlKit.framework"
                BlueprintName = "AxolotlKit"
                ReferencedContainer = "container:AxolotlKit.xcodeproj">
             </BuildableReference>
@@ -28,46 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B63B2FDA197D8B9600E09F65"
-               BuildableName = "AxolotlKitTests.xctest"
-               BlueprintName = "AxolotlKitTests"
-               ReferencedContainer = "container:AxolotlKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B63B2FDA197D8B9600E09F65"
-               BuildableName = "AxolotlKitTests.xctest"
-               BlueprintName = "AxolotlKitTests"
-               ReferencedContainer = "container:AxolotlKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B63B2FDA197D8B9600E09F65"
-               BuildableName = "AxolotlKitTests.xctest"
-               BlueprintName = "AxolotlKitTests"
-               ReferencedContainer = "container:AxolotlKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B63B2F9C197D8AFD00E09F65"
-            BuildableName = "AxolotlKit.app"
-            BlueprintName = "AxolotlKit"
-            ReferencedContainer = "container:AxolotlKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -81,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B63B2F9C197D8AFD00E09F65"
-            BuildableName = "AxolotlKit.app"
+            BlueprintIdentifier = "9F4C51761DDF34FB008DFCC2"
+            BuildableName = "AxolotlKit.framework"
             BlueprintName = "AxolotlKit"
             ReferencedContainer = "container:AxolotlKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -103,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B63B2F9C197D8AFD00E09F65"
-            BuildableName = "AxolotlKit.app"
+            BlueprintIdentifier = "9F4C51761DDF34FB008DFCC2"
+            BuildableName = "AxolotlKit.framework"
             BlueprintName = "AxolotlKit"
             ReferencedContainer = "container:AxolotlKit.xcodeproj">
          </BuildableReference>

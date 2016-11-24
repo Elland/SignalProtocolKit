@@ -94,7 +94,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxolotlKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4C51771DDF34FB008DFCC2 /* AxolotlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxolotlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4C51791DDF34FB008DFCC2 /* AxolotlKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxolotlKitiOS.h; sourceTree = "<group>"; };
 		9F4C517A1DDF34FB008DFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
@@ -333,7 +333,7 @@
 		B6B98F7A197D838A00B16B5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */,
+				9F4C51771DDF34FB008DFCC2 /* AxolotlKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -547,9 +547,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9F4C51761DDF34FB008DFCC2 /* AxolotlKitiOS */ = {
+		9F4C51761DDF34FB008DFCC2 /* AxolotlKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKitiOS" */;
+			buildConfigurationList = 9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKit" */;
 			buildPhases = (
 				9F4C51721DDF34FB008DFCC2 /* Sources */,
 				9F4C51731DDF34FB008DFCC2 /* Frameworks */,
@@ -561,9 +561,9 @@
 			);
 			dependencies = (
 			);
-			name = AxolotlKitiOS;
+			name = AxolotlKit;
 			productName = AxolotlKitiOS;
-			productReference = 9F4C51771DDF34FB008DFCC2 /* AxolotlKitiOS.framework */;
+			productReference = 9F4C51771DDF34FB008DFCC2 /* AxolotlKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -594,7 +594,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F4C51761DDF34FB008DFCC2 /* AxolotlKitiOS */,
+				9F4C51761DDF34FB008DFCC2 /* AxolotlKit */,
 			);
 		};
 /* End PBXProject section */
@@ -828,7 +828,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKitiOS" */ = {
+		9F4C51821DDF34FB008DFCC2 /* Build configuration list for PBXNativeTarget "AxolotlKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F4C51801DDF34FB008DFCC2 /* Debug */,
