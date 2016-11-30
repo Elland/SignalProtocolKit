@@ -67,11 +67,8 @@
 		9F4C51BC1DDF3584008DFCC2 /* NSData+keyVersionByte.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7719FE49010091446D /* NSData+keyVersionByte.m */; };
 		9F4C51BD1DDF3584008DFCC2 /* SerializationUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E07F7919FE49010091446D /* SerializationUtilities.m */; };
 		9F4C51C51DDF37AB008DFCC2 /* Curve25519.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */; };
-		9F4C51C61DDF37AB008DFCC2 /* Curve25519.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */; };
 		9F4C51C81DDF37AB008DFCC2 /* HKDFKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */; };
-		9F4C51C91DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */; };
 		9F4C51CA1DDF37AB008DFCC2 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */; };
-		9F4C51CB1DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,11 +89,8 @@
 		9F4C51791DDF34FB008DFCC2 /* AxolotlKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxolotlKitiOS.h; sourceTree = "<group>"; };
 		9F4C517A1DDF34FB008DFCC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curve25519.framework; path = Carthage/Build/iOS/Curve25519.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Curve25519.framework.dSYM; path = Carthage/Build/iOS/Curve25519.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HKDFKitiOS.framework; path = Carthage/Build/iOS/HKDFKitiOS.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = HKDFKitiOS.framework.dSYM; path = Carthage/Build/iOS/HKDFKitiOS.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Carthage/Build/iOS/ProtocolBuffers.framework; sourceTree = SOURCE_ROOT; };
-		9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ProtocolBuffers.framework.dSYM; path = Carthage/Build/iOS/ProtocolBuffers.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		B619AF1319FC148D00E33198 /* ProtobuffsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtobuffsTests.m; sourceTree = "<group>"; };
 		B61E841C19D1780D004FC382 /* HKDFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDFTest.m; sourceTree = "<group>"; };
 		B62EFBEF1A9140190072ADD3 /* PreKeyBundleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreKeyBundleTests.m; sourceTree = "<group>"; };
@@ -336,11 +330,8 @@
 			isa = PBXGroup;
 			children = (
 				9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */,
-				9F4C51BF1DDF37AB008DFCC2 /* Curve25519.framework.dSYM */,
 				9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */,
-				9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */,
 				9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */,
-				9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */,
 				B6E07F3419FE49010091446D /* Classes */,
 				B6B98F7C197D838A00B16B5E /* Supporting Files */,
 			);
@@ -598,9 +589,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4C51CB1DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */,
-				9F4C51C91DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */,
-				9F4C51C61DDF37AB008DFCC2 /* Curve25519.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
