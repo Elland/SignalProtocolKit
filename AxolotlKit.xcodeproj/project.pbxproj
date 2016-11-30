@@ -72,9 +72,6 @@
 		9F4C51C91DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C21DDF37AB008DFCC2 /* HKDFKitiOS.framework.dSYM */; };
 		9F4C51CA1DDF37AB008DFCC2 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */; };
 		9F4C51CB1DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C51C41DDF37AB008DFCC2 /* ProtocolBuffers.framework.dSYM */; };
-		9F4C51CD1DDF37C1008DFCC2 /* Curve25519.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51BE1DDF37AB008DFCC2 /* Curve25519.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51CE1DDF37C1008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C11DDF37AB008DFCC2 /* HKDFKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9F4C51CF1DDF37C1008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4C51C31DDF37AB008DFCC2 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,9 +81,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9F4C51CD1DDF37C1008DFCC2 /* Curve25519.framework in Embed Frameworks */,
-				9F4C51CE1DDF37C1008DFCC2 /* HKDFKitiOS.framework in Embed Frameworks */,
-				9F4C51CF1DDF37C1008DFCC2 /* ProtocolBuffers.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
